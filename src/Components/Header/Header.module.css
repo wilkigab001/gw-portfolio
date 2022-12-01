@@ -1,0 +1,21 @@
+.allHeader{
+height: 75px;
+display: flex;
+align-items: center;;
+}
+
+.headerTitle {
+    width: 50%;
+}
+.listItems{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+li{
+    text-decoration: none;
+    margin-right: 5px;
+    margin-left: 5px;
+}

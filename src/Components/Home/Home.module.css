@@ -1,0 +1,7 @@
+.allHome{
+    background: url('../../../public/images/homeBackground.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: yellow;
+}
