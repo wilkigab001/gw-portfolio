@@ -7,6 +7,9 @@ const Header = () => {
       <div className={styles.headerTitle}> Gabriel Wilkins </div>
       <div className={styles.listItems}>
         <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
           <a href="#">About me</a>
         </li>
         <li>

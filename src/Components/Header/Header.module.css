@@ -1,11 +1,18 @@
 .allHeader{
 height: 75px;
 display: flex;
-align-items: center;;
+align-items: center;
+background: rgba(36,37,38,.6);
+
+position: sticky;
+top: 0;
+color: white;
 }
 
 .headerTitle {
     width: 50%;
+    text-transform: uppercase;
+    letter-spacing: .2em;
 }
 .listItems{
     width: 50%;
@@ -15,7 +22,11 @@ align-items: center;;
 }
 
 li{
-    text-decoration: none;
+
     margin-right: 5px;
     margin-left: 5px;
+}
+a{
+    color: white;
+    text-decoration: none;
 }

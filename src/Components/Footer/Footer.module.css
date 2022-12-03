@@ -1,0 +1,25 @@
+.allFooter{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background: rgba(36,37,38,.6);
+    color: white;
+    }
+    
+    .headerTitle {
+        width: 50%;
+        text-transform: uppercase;
+        letter-spacing: .2em;
+    }
+    .listItems{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+    }
+    
+    li{
+        text-decoration: none;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
