@@ -7,8 +7,7 @@ const Home = () => {
       <div className={styles.innerHome}>
         <div className={styles.textHome}>
           <h1>Gabriel Wilkins</h1>
-          <h3> Full Stack </h3>
-          <h3> Web Developer </h3>
+          <h4> FULL-STACK WEB DEVELOPER </h4>
         </div>
       </div>
     </div>

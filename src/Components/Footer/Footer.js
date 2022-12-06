@@ -10,6 +10,9 @@ const Footer = () => {
   return (
     <div className={styles.allFooter}>
       <div className={styles.leftDiv}>
+        <p>
+          wilkigab001@gmail.com
+        </p>
       </div>
       <div className={styles.centerDiv}>
         <p> * Site Designed and Implemented by Gabriel Wilkins in 2022</p>

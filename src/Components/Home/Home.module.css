@@ -1,5 +1,5 @@
 .allHome{
-    background: url('../../../public/images/homeBackground.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../public/images/homeBackground.jpg');
     height: 100vh;
     width: 100vw;
     background-size: cover;
@@ -21,7 +21,7 @@
 }
 
 .textHome{
-    border-left: 30px solid #328be9;
+    border-left: 30px solid rgba(155,103,60, 1);
     border-right: 2px solid white;
     border-top: 2px solid white;
     border-bottom: 2px solid white;
@@ -32,7 +32,6 @@
     justify-content: space-evenly;
     align-items: center;
     color: white;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 h1{
