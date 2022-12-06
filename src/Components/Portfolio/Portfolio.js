@@ -6,14 +6,15 @@ import {
   SiHtml5,
   SiCsswizardry,
   SiJavascript,
-  SiGithub
+  SiGithub,
 } from "react-icons/si";
 import { DiNodejsSmall } from "react-icons/di";
+import Projects from "../Projects/Projects"
 
 const Portfolio = () => {
   return (
     <div className={styles.allProfile}>
-      Portfolio
+      <Projects />
       <div className={styles.listItems}>
         <li>
           <SiPostgresql size={40} />

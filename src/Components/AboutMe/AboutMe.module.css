@@ -14,7 +14,7 @@
     align-items: center;
 }
 
-img{
+.facePhoto{
     height: 50%;
     border-radius: 10px;
     opacity: .9;

@@ -6,6 +6,7 @@ import {
   AiOutlineInstagram,
 } from "react-icons/ai";
 
+
 const Footer = () => {
   return (
     <div className={styles.allFooter}>

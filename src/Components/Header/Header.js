@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Header.module.css";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -7,13 +8,13 @@ const Header = () => {
       <div className={styles.headerTitle}> Gabriel Wilkins </div>
       <div className={styles.listItems}>
         <li>
-          <a href="#">Home</a>
+          <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <a href="#">About me</a>
+          <NavLink to="/AboutMe">About me</NavLink>
         </li>
         <li>
-          <a href="#">Portfolio</a>
+          <NavLink to="/Portfolio">Portfolio</NavLink>
         </li>
       </div>
     </div>
