@@ -5,22 +5,16 @@ import Slider from "react-slick";
 const Portfolio = () => {
   const settings = {
     dots: true,
-    infinite: true,
-    speed: 500,
+    speed: 100,
     slidesToShow: 1,
     slidesToScroll: 1,
   };
 
-  return (<div className={styles.allProfile}>
-    <div>
-    <Slider {...settings}>
-      <div>
-
-      </div>
-    </Slider>
-
+  return (
+    <div className={styles.allProfile}>
+      Portfolio
     </div>
-    Portfolio</div>);
+  );
 };
 
 export default Portfolio;

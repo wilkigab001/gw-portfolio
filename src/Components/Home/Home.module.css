@@ -20,12 +20,29 @@
     width: 100vw;
 }
 
+.textHome{
+    border-left: 30px solid #328be9;
+    border-right: 2px solid white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    width: 33%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
 h1{
     margin: 0;
+    margin-left: 10px;
 }
 
 h3{
     margin-top: 10px;
     margin-bottom: 0px;
     font-size: 20px;
+    margin-left: 10px;
 }
