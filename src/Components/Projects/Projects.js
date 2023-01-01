@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Projects.module.css";
+import { Link } from "react-router-dom";
 
 
 const Projects = () => {
@@ -44,7 +45,7 @@ const Projects = () => {
             This was a Fullstack application I built to be able to help me
             remember trails that I have ridden and if I want to go back and ride
             them again!
-            <button onClick={() => console.log('loggin')}> yep</button>
+            <Link to={{pathname:" https://github.com/wilkigab001/specsCapstone"}} target="_blank">Work</Link>
           </p>
         </section>
       </div>
