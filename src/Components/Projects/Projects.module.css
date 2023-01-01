@@ -37,3 +37,11 @@
 .description{
     text-align: center;
 }
+
+a{
+    z-index: 100;
+}
+
+button{
+    z-index: 100;
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Projects.module.css";
-import { Link } from "react-router-dom";
+
+
 const Projects = () => {
   return (
     <div className={styles.projects}>
@@ -23,7 +24,6 @@ const Projects = () => {
             vacation, and allow you to add details. It also had an
             authentication page to let you login and save your vacation ideas.
           </p>
-          <Link to="https://github.com/wilkigab001/specsCapstone">Github Repo</Link>
         </section>
       </div>
       <div className={styles.projectList}>
@@ -40,16 +40,12 @@ const Projects = () => {
         </section>
 
         <section className={styles.projectRight}>
-          <p className={styles.description}> 
+          <p className={styles.description}>
             This was a Fullstack application I built to be able to help me
             remember trails that I have ridden and if I want to go back and ride
             them again!
+            <button onClick={() => console.log('loggin')}> yep</button>
           </p>
-          <button onClick={() => console.log('click')}>
-            <a href="https://github.com/wilkigab001/devmountainCapstone">
-              Github Repo
-            </a>
-          </button>
         </section>
       </div>
     </div>
