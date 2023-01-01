@@ -45,7 +45,6 @@ const Projects = () => {
             This was a Fullstack application I built to be able to help me
             remember trails that I have ridden and if I want to go back and ride
             them again!
-            <Link to={{pathname:" https://github.com/wilkigab001/specsCapstone"}} target="_blank">Work</Link>
           </p>
         </section>
       </div>
